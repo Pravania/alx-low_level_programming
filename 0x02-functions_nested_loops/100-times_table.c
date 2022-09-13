@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - prints time tables
- * @n - number
+ * @n: number
  */
 
 void print_times_table(int n)
