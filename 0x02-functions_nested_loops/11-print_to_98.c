@@ -1,5 +1,5 @@
 #include "main.h"
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * print_to_98 - prints natura numbers to 98
