@@ -6,6 +6,6 @@
  */
 
 int _putchar(char c);
-int 0-putchar(void);
+int main(void);
 
 #endif
