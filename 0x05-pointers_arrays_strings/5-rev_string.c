@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *  * rev_string - this characters in reverse.
- *   * @s: this is a parameter to change.
- *    */
+ * rev_string - this characters in reverse.
+ * @s: this is a parameter to change.
+ */
 void rev_string(char *s)
 {
 	int ini = 0, f = 0;
