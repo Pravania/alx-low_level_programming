@@ -1,13 +1,16 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * _puts - prints string
- * @str: string
+ * @str: pointer
  * Return: always 0
  */
 
 void _puts(char *str)
 {
-	_putchar(*str);
-	return (0);
+	for (; *str != '\0';)
+	{
+		_putchar(*str);
+		str++
+	}
+	_putchar('\n');
 }
