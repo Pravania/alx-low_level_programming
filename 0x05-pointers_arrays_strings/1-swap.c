@@ -4,7 +4,6 @@
  * swap_int - function to swap integers
  * @a: number
  * @b: number
- * @temp: temporary number
  * Return: always 0
  */
 
