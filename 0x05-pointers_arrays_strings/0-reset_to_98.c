@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - reset address
+ * @n: variable
  * Return: always 0
  */
 
