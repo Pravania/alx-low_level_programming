@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - gets length f string
- * @s: length
+ * _strlen - this function change the initial.
+ * @s: this is a parameter to change.
  * Return: len
  */
-
 int _strlen(char *s)
 {
 	int len;
