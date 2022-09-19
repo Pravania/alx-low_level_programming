@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * swap_int - function to swap integers
+ * @a: number
+ * @b: number
+ * @temp: temporary number
+ * Return: always 0
+ */
+
+void swap_int(int *a, int *b)
+{
+	int *t = *a;
+	*a = *b;
+	*b = *t;
+}
