@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * memset - fills memory
  * @s: pointer to memory to fill
