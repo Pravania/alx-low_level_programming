@@ -1,12 +1,5 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * @n: integer to find sqrt of
- *
- * Return: natural square root or -1
- */
-
-/**
  * sqrt_check - checks for the square root of c
  * @g:guess at sqrt
  * @c: number to find sqrt of
@@ -22,6 +15,12 @@ int sqrt_check(int g, int c)
 	return (sqrt_check(g + 1, c));
 }
 
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: integer to find sqrt of
+ *
+ * Return: natural square root or -1
+ */
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
