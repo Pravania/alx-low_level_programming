@@ -5,6 +5,14 @@
  *
  * Return: natural square root or -1
  */
+
+/**
+ * sqrt_check - checks for the square root of c
+ * @g:guess at sqrt
+ * @c: number to find sqrt of
+ *
+ * Return: -1 or sqrt of c
+ */
 int sqrt_check(int g, int c)
 {
 	if (g * g == c)
